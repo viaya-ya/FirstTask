@@ -1,0 +1,256 @@
+/*---------------- reset all stiles ----------------------*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+a, a:hover, a:visited, a:active, a:focus {
+  outline: none;
+}
+
+.text {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.header__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.692);
+}
+.header__enter {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.header__enter a {
+  color: aliceblue;
+}
+.header__enter a:hover {
+  color: blue;
+}
+.header__newAds {
+  margin-right: 3px;
+  margin-top: 5px;
+}
+.header__newAds button {
+  background-color: blue;
+  color: aliceblue;
+}
+.header__search-ads {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 12px;
+}
+.header__text {
+  margin-right: 5px;
+}
+.header__burger {
+  margin-right: 5px;
+  height: 25px;
+}
+.header__burger button {
+  height: 25px;
+}
+.header__search-input input {
+  width: 700px;
+  height: 25px;
+}
+.header__search button {
+  background-color: blue;
+  height: 25px;
+}
+.header__search button a {
+  color: aliceblue;
+}
+
+.main audio {
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+.main__text {
+  font-size: 19px;
+  margin-left: 120px;
+  margin-top: 32px;
+}
+.main__bulletin-board {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 26px;
+  margin-top: 15px;
+  margin-right: 0px;
+}
+
+.items-board {
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+.items-board__img img {
+  width: 264px;
+  height: 198px;
+}
+.items-board__name {
+  font-family: "Inter";
+  font-weight: 600;
+  font-style: normal;
+  line-height: 20px;
+  font-size: 18px;
+  color: #3B82F6;
+}
+.items-board__meet {
+  font-weight: 600;
+  color: black;
+  line-height: 20px;
+}
+.items-board__address {
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 16px;
+  font-size: 14px;
+}
+.items-board__time {
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 16px;
+  font-size: 14px;
+}
